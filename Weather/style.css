@@ -1,0 +1,88 @@
+body {
+    background-color: #323233;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    color: #F1F1F1;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.container .left {
+    width: fit-content;
+    padding: 20px;
+}
+.container h2 {
+    font-size: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.container img {
+    width: 250px;
+    height: 250px;
+    margin-top: -50px;
+}
+
+.right {
+    padding: 10px;
+    margin: 20px;
+    margin-left: 150px;
+}
+.currTable caption {
+    caption-side: bottom;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bolder;
+    color: #f1f1f1f8;
+    font-family: fantasy;
+    font-size: 36px;
+    padding: 10px;
+}
+.dataTable caption{
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bolder;
+    color: #f1f1f1f8;
+    font-family: fantasy;
+    font-size: 48px;
+    padding: 10px;
+    caption-side: bottom;
+}
+.currTable,.currHead, .currRow,  .currData {
+    border: 5px solid #fff;
+    border-collapse: collapse;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+}
+.currHead {
+    background: aliceblue;
+    color: #333;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dataTable, .dataRow, .dataD {
+    border: 5px solid #fff;
+    border-collapse: collapse;
+    padding: 20px;
+    margin: 20px auto 0px auto;
+    font-size: 36px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dataRow:first-child, .dataHead, .dataRow:first-child {
+    border-top: none;
+}
+.dataHead {
+    color: #444;
+    font-family: 'Times New Roman', Times, serif;
+    background: aliceblue;
+    padding: 20px;
+    text-transform: uppercase;
+}
